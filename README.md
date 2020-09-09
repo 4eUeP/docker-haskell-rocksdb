@@ -1,7 +1,7 @@
 docker-haskell-rocksdb
 ======================
 
-![Builds and Pushes](https://github.com/hstreamdb/docker-haskell-rocksdb/workflows/Builds%20and%20pushes%20Docker%20image/badge.svg)
+![![Builds and Pushes](https://github.com/hstreamdb/docker-haskell-rocksdb/workflows/publish/badge.svg)](https://github.com/hstreamdb/docker-haskell-rocksdb/actions)
 
 Base image for Haskell development with rocksdb shared library.
 

@@ -1,4 +1,4 @@
-name: Builds and pushes Docker image
+name: publish
 
 on:
   push:
@@ -21,6 +21,8 @@ jobs:
           path: |
             $CACHE_DIR
           key: ${{ runner.os }}-${{ hashFiles('dockerfiles/*') }}
+          restore-keys: |
+            ${{ runner.os }}-
 
       - name: Build & Push images
         run: |
